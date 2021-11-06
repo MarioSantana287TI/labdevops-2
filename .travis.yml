@@ -68,6 +68,6 @@ jobs:
     - stage: Production Test
       name: GET URL Production
       script:
-        - curl https://labdevops-marios.uc.r.appspot.com/ | grep Hello || travis_terminate 1;1~
+        - curl https://labdevops-marios.uc.r.appspot.com/ | grep Hello || travis_terminate 1;
 
 
